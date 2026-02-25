@@ -49,7 +49,16 @@ Data Structures, Algorithms, Memory Management, Object-Oriented Programming, Deb
 
 ---
 
+## Learning
+
+Currently preparing for the CompTIA Security+ certification and continuing advanced coursework in Cyber Defense.  
+
+Focused on strengthening knowledge in enterprise security architecture, network security, threat detection, and risk management.
+
+---
+
 ## Contact
 
 LinkedIn: www.linkedin.com/in/ryder-tetreault  
 Email: rydertetreault@gmail.com
+Portfolio: rydertetreault.dev

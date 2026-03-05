@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ryder Tetreault</h1>
 
 <p align="center">
-Computer Science & Software Engineering Student @ Auburn University<br>
+Computer Science & Software Engineering <br>
 Cyber Defense Certificate<br>
 Software Development Intern @ Proxima Aerospace<br>
 Junior Developer @ Maha Media

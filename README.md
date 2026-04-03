@@ -61,4 +61,4 @@ Focused on strengthening knowledge in enterprise security architecture, network 
 
 LinkedIn: www.linkedin.com/in/ryder-tetreault  
 Email: rydertetreault@gmail.com  
-Portfolio: rydertetreault.dev
+Portfolio: www.rydertetreault.dev

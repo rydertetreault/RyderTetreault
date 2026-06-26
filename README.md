@@ -20,16 +20,23 @@ My primary interests are in systems design, distributed infrastructure, and cybe
 ## Experience
 
 **Software Development Intern — Proxima Aerospace**  
-Jan 2026 – Present  
+Jan 2026 – March 2026  
 
 Developing Python tools to retrieve and process satellite and astrodynamics data from REST APIs. Designing data parsing workflows and working with distributed datasets and cloud infrastructure.
 
 <br>
 
 **Junior Developer — Maha Media**  
-2026 – Present  
+February 2026 – Present  
 
 Supporting backend web systems, assisting with technical operations, and contributing to scalable digital platforms.
+
+<br>
+
+**Engineering Intern — PraxisAI**  
+June 2026 – Present  
+
+Contributing to UI/UX front-end, platform integrity, and AI infrastructure initiatives. 
 
 ---
 

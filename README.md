@@ -3,7 +3,7 @@
 <p align="center">
 Computer Science & Software Engineering <br>
 Cyber Defense Certificate<br>
-Software Development Intern @ Proxima Aerospace<br>
+Engineering Intern @ Praxis AI<br>
 Junior Developer @ Maha Media
 </p>
 

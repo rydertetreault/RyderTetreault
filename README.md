@@ -13,8 +13,6 @@ Junior Developer @ Maha Media
 
 I am a software engineer focused on building and securing complex systems across cloud, infrastructure, and application environments.
 
-My primary interests are in systems design, distributed infrastructure, and cybersecurity engineering, with a long-term goal of working in Systems Engineering and Enterprise Architecture.
-
 ---
 
 ## Experience

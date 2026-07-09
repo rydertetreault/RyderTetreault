@@ -40,25 +40,11 @@ Contributing to UI/UX front-end, platform integrity, and AI infrastructure initi
 
 ## Technical Skills
 
-**Languages**  
-C, C++, Python, Ruby, SQL, JavaScript  
-
-**Systems & Infrastructure**  
-Linux Administration, Virtualization, OpenStack, Ceph Storage, Distributed Systems, Cloud Infrastructure  
-
 **Cybersecurity**  
 Digital Forensics, Network Traffic Analysis, Buffer Overflow Exploitation, NTFS Analysis, Steganography  
 
 **Computer Science**  
 Data Structures, Algorithms, Memory Management, Object-Oriented Programming, Debugging, Testing  
-
----
-
-## Learning
-
-Currently preparing for the CompTIA Security+ certification and continuing advanced coursework in Cyber Defense.  
-
-Focused on strengthening knowledge in enterprise security architecture, network security, threat detection, and risk management.
 
 ---
 

@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-waveform-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/ascii-waveform-light.svg">
+  <img alt="Animated ASCII topography from rydertetreault.dev" src="assets/ascii-waveform-dark.svg" width="100%">
+</picture>
+
 <h1 align="center">Hi, I'm Ryder Tetreault</h1>
 
 <p align="center">

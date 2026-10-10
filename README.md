@@ -2,8 +2,6 @@
 
 Computer Science & Software Engineering graduate from Auburn University with a Cyber Defense certificate. I build products with AI as a first-class layer, from semantic search to automated media pipelines, grounded in a cybersecurity background.
 
-[rydertetreault.dev](https://rydertetreault.dev) · [LinkedIn](https://www.linkedin.com/in/ryder-tetreault) · [rydertetreault@gmail.com](mailto:rydertetreault@gmail.com)
-
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heading-537da8c0-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/heading-537da8c0-light.svg"><img alt="Experience" src="assets/heading-537da8c0-light.svg" width="100%"></picture>

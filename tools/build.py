@@ -19,9 +19,6 @@ ASSETS = os.path.join(ROOT, "assets")
 ABOUT = ("Computer Science & Software Engineering graduate from Auburn University with a Cyber "
          "Defense certificate. I build products with AI as a first-class layer, from semantic search "
          "to automated media pipelines, grounded in a cybersecurity background.")
-LINKS = [("rydertetreault.dev", "https://rydertetreault.dev"),
-         ("LinkedIn", "https://www.linkedin.com/in/ryder-tetreault"),
-         ("rydertetreault@gmail.com", "mailto:rydertetreault@gmail.com")]
 # (org, [(title, dates, description or None)]), newest first
 EXPERIENCE = [
     ("Praxis AI", [
@@ -130,7 +127,6 @@ os.makedirs(ASSETS, exist_ok=True)
 readme = "\n".join([
     section("About"),
     ABOUT + "\n",
-    " · ".join(f"[{t}]({u})" for t, u in LINKS) + "\n",
     "<br>\n",
     section("Experience"),
     entries(EXPERIENCE),

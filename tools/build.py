@@ -6,7 +6,7 @@ Edit CONTENT below, then run:  python3 tools/build.py   (no dependencies)
 Markdown can't color text, so two pieces are small SVGs drawn in GitHub's own
 system font and theme colors (light + dark via <picture>):
   - section headings: GitHub's h2 + divider, with a lime accent fading out by mid-page
-  - company names: GitHub's h3 with a grey hairline underline
+  - company names: GitHub's h3 with a grey underline fading out by mid-page
   - role descriptions: GitHub's muted grey
 Asset names include a content hash so GitHub's image cache never serves stale art.
 """
@@ -69,11 +69,13 @@ def heading_svg(c, text, h=46):
         f'<rect x="0" y="{h-2}" width="{W // 2}" height="2" fill="url(#fade)"/>')
 
 def org_svg(c, text, h=44):
-    # GitHub's h3 (1.25em/600) plus a grey hairline; 8px of top space keeps h3's
+    # GitHub's h3 (1.25em/600) plus a grey underline fading out by mid-page; 8px of top space keeps h3's
     # separation from the previous company now that it's an image, not a heading.
     return svg(W, h, text,
         f'<text x="0" y="31" font-family="{FONT}" font-size="20" font-weight="600" fill="{c["fg"]}">{html.escape(text)}</text>'
-        f'<rect x="0" y="{h-1}" width="{W}" height="1" fill="{c["rule"]}"/>')
+        f'<defs><linearGradient id="fade"><stop offset="0" stop-color="{c["rule"]}"/>'
+        f'<stop offset="1" stop-color="{c["rule"]}" stop-opacity="0"/></linearGradient></defs>'
+        f'<rect x="0" y="{h-1}" width="{W // 2}" height="1" fill="url(#fade)"/>')
 
 def desc_svg(c, text, h=22):
     return svg(W, h, text,

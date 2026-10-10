@@ -6,7 +6,7 @@ Edit CONTENT below, then run:  python3 tools/build.py   (no dependencies)
 Markdown can't color text, so two pieces are small SVGs drawn in GitHub's own
 system font and theme colors (light + dark via <picture>):
   - section headings: GitHub's h2 with a lime underline fading out by mid-page
-  - company names: GitHub's h3 with a grey underline fading out halfway through the name
+  - company names: GitHub's h3 with a grey underline fading out by mid-page
   - role descriptions: GitHub's muted grey
 Asset names include a content hash so GitHub's image cache never serves stale art.
 """
@@ -52,21 +52,6 @@ THEMES = {  # GitHub Primer colors; accent = rydertetreault.dev lime
 }
 DESC_SIZE = 15
 
-# Advance widths (em) of Arial/Liberation Sans Bold, a close stand-in for GitHub's bold
-# system font; only used to size the company underline, so small error is invisible.
-BOLD_EM = {
-    ' ': 0.278, '!': 0.333, '"': 0.474, '#': 0.556, '$': 0.556, '%': 0.889, '&': 0.722, "'": 0.238, '(': 0.333, ')': 0.333, '*': 0.389, '+': 0.584,
-    ',': 0.278, '-': 0.333, '.': 0.278, '/': 0.278, '0': 0.556, '1': 0.556, '2': 0.556, '3': 0.556, '4': 0.556, '5': 0.556, '6': 0.556, '7': 0.556,
-    '8': 0.556, '9': 0.556, ':': 0.333, ';': 0.333, '<': 0.584, '=': 0.584, '>': 0.584, '?': 0.611, '@': 0.975, 'A': 0.722, 'B': 0.722, 'C': 0.722,
-    'D': 0.722, 'E': 0.667, 'F': 0.611, 'G': 0.778, 'H': 0.722, 'I': 0.278, 'J': 0.556, 'K': 0.722, 'L': 0.611, 'M': 0.833, 'N': 0.722, 'O': 0.778,
-    'P': 0.667, 'Q': 0.778, 'R': 0.722, 'S': 0.667, 'T': 0.611, 'U': 0.722, 'V': 0.667, 'W': 0.944, 'X': 0.667, 'Y': 0.667, 'Z': 0.611, '[': 0.333,
-    '\\': 0.278, ']': 0.333, '^': 0.584, '_': 0.556, '`': 0.333, 'a': 0.556, 'b': 0.611, 'c': 0.556, 'd': 0.611, 'e': 0.556, 'f': 0.333, 'g': 0.611,
-    'h': 0.611, 'i': 0.278, 'j': 0.278, 'k': 0.556, 'l': 0.278, 'm': 0.889, 'n': 0.611, 'o': 0.611, 'p': 0.611, 'q': 0.611, 'r': 0.389, 's': 0.556,
-    't': 0.333, 'u': 0.611, 'v': 0.556, 'w': 0.778, 'x': 0.556, 'y': 0.556, 'z': 0.5, '{': 0.389, '|': 0.28, '}': 0.389, '~': 0.584,
-}
-
-def text_width(text, size):
-    return sum(BOLD_EM.get(ch, 0.6) for ch in text) * size
 
 # ---- svg pieces --------------------------------------------------------------
 def svg(w, h, label, body):
@@ -80,15 +65,14 @@ def heading_svg(c, text, h=46):
         f'<text x="0" y="30" font-family="{FONT}" font-size="24" font-weight="600" fill="{c["fg"]}">{html.escape(text)}</text>'
         f'<rect x="0" y="{h-2}" width="{W // 2}" height="2" fill="url(#fade)"/>')
 
-def org_svg(c, text, h=44, size=20):
-    # GitHub's h3 (1.25em/600) with a grey underline that fades out halfway through
-    # the name. 8px of top space keeps h3's separation from the previous company.
-    line = round(text_width(text, size) / 2)
+def org_svg(c, text, h=44):
+    # GitHub's h3 (1.25em/600) plus a grey underline fading out by mid-page;
+    # 8px of top space keeps h3's separation from the previous company.
     return svg(W, h, text,
-        f'<defs><linearGradient id="fade"><stop offset="0" stop-color="{c["muted"]}"/>'
-        f'<stop offset="1" stop-color="{c["muted"]}" stop-opacity="0"/></linearGradient></defs>'
-        f'<text x="0" y="31" font-family="{FONT}" font-size="{size}" font-weight="600" fill="{c["fg"]}">{html.escape(text)}</text>'
-        f'<rect x="0" y="{h-2}" width="{line}" height="2" fill="url(#fade)"/>')
+        f'<text x="0" y="31" font-family="{FONT}" font-size="20" font-weight="600" fill="{c["fg"]}">{html.escape(text)}</text>'
+        f'<defs><linearGradient id="fade"><stop offset="0" stop-color="{c["rule"]}"/>'
+        f'<stop offset="1" stop-color="{c["rule"]}" stop-opacity="0"/></linearGradient></defs>'
+        f'<rect x="0" y="{h-1}" width="{W // 2}" height="1" fill="url(#fade)"/>')
 
 def desc_svg(c, text, h=22):
     return svg(W, h, text,

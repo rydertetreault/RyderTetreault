@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg">
-  <img alt="About" src="assets/about-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heading-about-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/heading-about-light.svg">
+  <img alt="About" src="assets/heading-about-light.svg" width="100%">
 </picture>
 
 Computer Science & Software Engineering graduate from Auburn University with a Cyber Defense certificate. I build products with AI as a first-class layer, from semantic search to automated media pipelines, grounded in a cybersecurity background.
@@ -11,9 +11,9 @@ Computer Science & Software Engineering graduate from Auburn University with a C
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/experience-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/experience-light.svg">
-  <img alt="Experience" src="assets/experience-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heading-experience-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/heading-experience-light.svg">
+  <img alt="Experience" src="assets/heading-experience-light.svg" width="100%">
 </picture>
 
 ### Praxis AI
@@ -37,9 +37,9 @@ Python pipelines for retrieving and processing satellite and astrodynamics data.
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/education-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/education-light.svg">
-  <img alt="Education" src="assets/education-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/heading-education-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/heading-education-light.svg">
+  <img alt="Education" src="assets/heading-education-light.svg" width="100%">
 </picture>
 
 ### Auburn University

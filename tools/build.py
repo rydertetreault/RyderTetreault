@@ -18,5 +18,5 @@ for name in SECTIONS:
                f'<text x="0" y="30" font-family="{FONT}" font-size="24" font-weight="600" fill="{c["fg"]}">{name}</text>'
                f'<rect x="0" y="{H-1}" width="{W}" height="1" fill="{c["rule"]}"/>'
                f'<rect x="0" y="{H-2}" width="32" height="2" fill="{c["accent"]}"/></svg>\n')
-        open(os.path.join(OUT, f"{name.lower()}-{theme}.svg"), "w").write(svg)
+        open(os.path.join(OUT, f"heading-{name.lower()}-{theme}.svg"), "w").write(svg)
 print("built", sorted(os.listdir(OUT)))

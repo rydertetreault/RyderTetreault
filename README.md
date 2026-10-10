@@ -13,7 +13,8 @@ Computer Science & Software Engineering graduate from Auburn University with a C
 **UI/UX Engineer** · Oct 2026 – Present<br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/desc-8098d094-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desc-8098d094-light.svg"><img alt="Designing and building the platform&#x27;s user experience, from user flows to production front-end." src="assets/desc-8098d094-light.svg" width="830"></picture>
 
-**Engineering Intern** · Jun 2026 – Oct 2026
+**Engineering Intern** · Jun 2026 – Oct 2026<br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/desc-72433f43-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desc-72433f43-light.svg"><img alt="Led a full audit of the Pria platform, then began building a completely new interface for it." src="assets/desc-72433f43-light.svg" width="830"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/org-16838dfe-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/org-16838dfe-light.svg"><img alt="Maha Media" src="assets/org-16838dfe-light.svg" width="100%"></picture>
 

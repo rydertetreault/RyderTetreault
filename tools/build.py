@@ -27,7 +27,8 @@ EXPERIENCE = [
     ("Praxis AI", [
         ("UI/UX Engineer", "Oct 2026 – Present",
          "Designing and building the platform's user experience, from user flows to production front-end."),
-        ("Engineering Intern", "Jun 2026 – Oct 2026", None),
+        ("Engineering Intern", "Jun 2026 – Oct 2026",
+         "Led a full audit of the Pria platform, then began building a completely new interface for it."),
     ]),
     ("Maha Media", [
         ("Software Developer", "Feb 2026 – Present",

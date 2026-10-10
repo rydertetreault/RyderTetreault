@@ -5,7 +5,7 @@ Edit CONTENT below, then run:  python3 tools/build.py   (no dependencies)
 
 Markdown can't color text, so two pieces are small SVGs drawn in GitHub's own
 system font and theme colors (light + dark via <picture>):
-  - section headings: GitHub's h2 + divider, with a lime accent fading out by mid-page
+  - section headings: GitHub's h2 with a lime underline fading out by mid-page
   - company names: GitHub's h3 with a grey underline fading out by mid-page
   - role descriptions: GitHub's muted grey
 Asset names include a content hash so GitHub's image cache never serves stale art.
@@ -27,8 +27,7 @@ EXPERIENCE = [
     ("Praxis AI", [
         ("UI/UX Engineer", "Oct 2026 – Present",
          "Designing and building the platform's user experience, from user flows to production front-end."),
-        ("Engineering Intern", "Jun 2026 – Oct 2026",
-         "Security audits, PraxisShield™ red-teaming, and Forward Deployed Engineering on AI agents."),
+        ("Engineering Intern", "Jun 2026 – Oct 2026", None),
     ]),
     ("Maha Media", [
         ("Software Developer", "Feb 2026 – Present",
@@ -65,7 +64,6 @@ def heading_svg(c, text, h=46):
         f'<defs><linearGradient id="fade"><stop offset="0" stop-color="{c["accent"]}"/>'
         f'<stop offset="1" stop-color="{c["accent"]}" stop-opacity="0"/></linearGradient></defs>'
         f'<text x="0" y="30" font-family="{FONT}" font-size="24" font-weight="600" fill="{c["fg"]}">{html.escape(text)}</text>'
-        f'<rect x="0" y="{h-1}" width="{W}" height="1" fill="{c["rule"]}"/>'
         f'<rect x="0" y="{h-2}" width="{W // 2}" height="2" fill="url(#fade)"/>')
 
 def org_svg(c, text, h=44):

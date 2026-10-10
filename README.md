@@ -8,7 +8,7 @@ Computer Science & Software Engineering graduate from Auburn University with a C
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heading-414bda34-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/heading-414bda34-light.svg"><img alt="Experience" src="assets/heading-414bda34-light.svg" width="100%"></picture>
 
-### Praxis AI
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/org-82093b8f-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/org-82093b8f-light.svg"><img alt="Praxis AI" src="assets/org-82093b8f-light.svg" width="100%"></picture>
 
 **UI/UX Engineer** · Oct 2026 – Present<br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/desc-8098d094-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desc-8098d094-light.svg"><img alt="Designing and building the platform&#x27;s user experience, from user flows to production front-end." src="assets/desc-8098d094-light.svg" width="830"></picture>
@@ -16,12 +16,12 @@ Computer Science & Software Engineering graduate from Auburn University with a C
 **Engineering Intern** · Jun 2026 – Oct 2026<br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/desc-e25c7849-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desc-e25c7849-light.svg"><img alt="Security audits, PraxisShield™ red-teaming, and Forward Deployed Engineering on AI agents." src="assets/desc-e25c7849-light.svg" width="830"></picture>
 
-### Maha Media
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/org-57d60fd0-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/org-57d60fd0-light.svg"><img alt="Maha Media" src="assets/org-57d60fd0-light.svg" width="100%"></picture>
 
 **Software Developer** · Feb 2026 – Present<br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/desc-4998923f-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desc-4998923f-light.svg"><img alt="Backend web systems and platform infrastructure for media and content delivery." src="assets/desc-4998923f-light.svg" width="830"></picture>
 
-### Proxima Aerospace
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/org-9ad92863-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/org-9ad92863-light.svg"><img alt="Proxima Aerospace" src="assets/org-9ad92863-light.svg" width="100%"></picture>
 
 **Software Engineering Intern** · Jan 2026 – Mar 2026<br>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/desc-aee57c9e-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desc-aee57c9e-light.svg"><img alt="Python pipelines for retrieving and processing satellite and astrodynamics data." src="assets/desc-aee57c9e-light.svg" width="830"></picture>
@@ -30,7 +30,7 @@ Computer Science & Software Engineering graduate from Auburn University with a C
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/heading-033c91a2-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/heading-033c91a2-light.svg"><img alt="Education" src="assets/heading-033c91a2-light.svg" width="100%"></picture>
 
-### Auburn University
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/org-03c1bfb3-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/org-03c1bfb3-light.svg"><img alt="Auburn University" src="assets/org-03c1bfb3-light.svg" width="100%"></picture>
 
 **B.S. Computer Science & Software Engineering** · Dec 2025
 
